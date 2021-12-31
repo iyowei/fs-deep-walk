@@ -6,7 +6,8 @@
   "scripts": {
     "format": "npx prettier '**/*.{js,mjs,json,md}' --write --loglevel error",
     "lint": "npx eslint \"**/*.js\"",
-    "test": "npx mocha '**/*.+(spec|test).js' -p"
+    "test": "npx mocha '**/*.+(spec|test).js' -p",
+    "try": "node ./try.js"
   },
   "repository": {
     "type": "git",
